@@ -11,7 +11,7 @@
 
 
 
-<title>My Website</title>
+<title>Statistical methods for archaeological data analysis</title>
 
 <script src="site_libs/header-attrs-2.6/header-attrs.js"></script>
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
@@ -20,6 +20,9 @@
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<script src="site_libs/jqueryui-1.11.4/jquery-ui.min.js"></script>
+<link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
+<script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-9.12.0/textmate.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
@@ -259,6 +262,69 @@ $(document).ready(function () {
 
 
 
+<style type="text/css">
+
+#TOC {
+  margin: 25px 0px 20px 0px;
+}
+@media (max-width: 768px) {
+#TOC {
+  position: relative;
+  width: 100%;
+}
+}
+
+@media print {
+.toc-content {
+  /* see https://github.com/w3c/csswg-drafts/issues/4434 */
+  float: right;
+}
+}
+
+.toc-content {
+  padding-left: 30px;
+  padding-right: 40px;
+}
+
+div.main-container {
+  max-width: 1200px;
+}
+
+div.tocify {
+  width: 20%;
+  max-width: 260px;
+  max-height: 85%;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  div.tocify {
+    width: 25%;
+  }
+}
+
+@media (max-width: 767px) {
+  div.tocify {
+    width: 100%;
+    max-width: none;
+  }
+}
+
+.tocify ul, .tocify li {
+  line-height: 20px;
+}
+
+.tocify-subheader .tocify-item {
+  font-size: 0.90em;
+}
+
+.tocify .list-group-item {
+  border-radius: 0px;
+}
+
+
+</style>
+
+
 
 </head>
 
@@ -266,6 +332,16 @@ $(document).ready(function () {
 
 
 <div class="container-fluid main-container">
+
+
+<!-- setup 3col/9col grid for toc_float and main content  -->
+<div class="row-fluid">
+<div class="col-xs-12 col-sm-4 col-md-3">
+<div id="TOC" class="tocify">
+</div>
+</div>
+
+<div class="toc-content col-xs-12 col-sm-8 col-md-9">
 
 
 
@@ -297,15 +373,158 @@ $(document).ready(function () {
 
 
 
-<h1 class="title toc-ignore">My Website</h1>
+<h1 class="title toc-ignore">Statistical methods for archaeological data analysis</h1>
+<h3 class="subtitle">IAW     University of Bern     Winter Qtr odd years</h3>
 
 </div>
 
 
-<p>Hello, Website!</p>
+<p><br></p>
+<div id="course-overview" class="section level1">
+<h1>Course overview</h1>
+<p>fill me</p>
+<p><br></p>
+</div>
+<div id="textbook" class="section level1">
+<h1>Textbook</h1>
+<p>fill me</p>
+<p><br></p>
+</div>
+<div id="key-dates" class="section level1">
+<h1>Key dates</h1>
+<p>fill me</p>
+<p><br></p>
+</div>
+<div id="learning-objectives" class="section level1">
+<h1>Learning objectives</h1>
+<p>fill me</p>
+<p><br></p>
+</div>
+<div id="instructors" class="section level1">
+<h1>Instructors</h1>
+<p><a href="https://www.iaw.unibe.ch/ueber_uns/arp_amp_pa_personen/dr_hinz_martin/"><strong>Martin Hinz</strong></a><br />
+Senior Researcher (Oberassistent), IAW bern<br />
+<a href="mailto:martin.hinz@iaw.unibe.ch">martin.hinz@iaw.unibe.ch</a></p>
+<p><br></p>
+</div>
+<div id="meeting-times-locations" class="section level1">
+<h1>Meeting times &amp; locations</h1>
+<div id="lectures" class="section level3">
+<h3>Lectures</h3>
+<p>Fill me</p>
+</div>
+<div id="computer-lab" class="section level3">
+<h3>Computer Lab</h3>
+<p>Fill me</p>
+</div>
+<div id="office-hours" class="section level3">
+<h3>Office hours</h3>
+<p>By appointment</p>
+<p><br></p>
+</div>
+</div>
+<div id="pre-requisites" class="section level1">
+<h1>Pre-requisites</h1>
+<p>Fill me</p>
+<p><br></p>
+</div>
+<div id="classroom-conduct" class="section level1">
+<h1>Classroom conduct</h1>
+<p>We are dedicated to providing a welcoming and supportive learning environment for all students, regardless of their background, identity, physical appearance, or manner of communication. Any form of language or behavior used to exclude, intimidate, or cause discomfort will not be tolerated. This applies to all course participants (instructor, students, guests). In order to foster a positive and professional learning environment, we ask the following:</p>
+<ul>
+<li><p>Please let us know if you have a name or set of preferred pronouns that you would like us to use</p></li>
+<li><p>Please let us know if <em>anyone</em> in class says something that makes you feel uncomfortable<sup>[<a href="#endnotes">1</a>]</sup></p></li>
+</ul>
+<p>In addition, we encourage the following kinds of behaviors:</p>
+<ul>
+<li><p>Use welcoming and inclusive language</p></li>
+<li><p>Show courtesy and respect towards others</p></li>
+<li><p>Acknowledge different viewpoints and experiences</p></li>
+<li><p>Gracefully accept constructive criticism</p></li>
+</ul>
+<p>Although we strive to create and use inclusive materials in this course, there may be overt or covert biases in the course material due to the lens with which it was written. Your suggestions about how to improve the value of diversity in this course are encouraged and appreciated.</p>
+<p><strong>Please note</strong>: The University of Bern is committed to a non-discriminatory environment. This applies in particular to discrimination on the basis of gender (sexism) and sexual assaults (sexual harassment): we are all entitled to protection of our personal integrity at work and during our studies and to the respect of our limits. The University of Bern is also legally obliged to protect its members from sexual harassment. In particular, superiors are also responsible for looking out and reacting.</p>
+<p>If you believe you have been a victim of any form of discrimination, you have the right to <a href="https://www.unibe.ch/studies/advisory_services/discrimination/index_eng.html">report it to the University</a>.</p>
+<p><br></p>
+</div>
+<div id="access-accommodations" class="section level1">
+<h1>Access &amp; accommodations</h1>
+<p>All students deserve access to the full range of learning experiences, and we are committed to creating inclusive and accessible learning environments consistent with federal and state laws. If you feel like your performance in class is being impacted by your experiences outside of class, please talk with us.</p>
+<div id="disabilities" class="section level3">
+<h3>Disabilities</h3>
+<p>If you have already established accommodations with Disability Resources for Students (DRS), please communicate your approved accommodations to us at your earliest convenience so we can discuss your needs in this course. If you have not yet established services through DRS, but have a temporary health condition or permanent disability that requires accommodations (<em>e.g.</em>, mental health, learning, vision, hearing, physical impacts), you are welcome to contact DRS at 206-543-8924 or via <a href="mailto:uwdrs@uw.edu">email</a> or their <a href="https://depts.washington.edu/uwdrs/">website</a>. DRS offers resources and coordinates reasonable accommodations for students with disabilities and/or temporary health conditions. Reasonable accommodations are established through an interactive process between you, your instructor(s) and DRS.</p>
+</div>
+<div id="religious-observances" class="section level3">
+<h3>Religious observances</h3>
+<p>Students who expect to miss class or assignments as a consequence of their religious observance will be provided with a reasonable accommodation to fulfill their academic responsibilities. Absence from class for religious reasons does not relieve students from responsibility for the course work required during the period of absence. It is the responsibility of the student to provide the instructor with advance notice of the dates of religious holidays on which they will be absent. Students who are absent will be offered an opportunity to make up the work, without penalty, within a reasonable time, as long as the student has made prior arrangements.</p>
+<p><br></p>
+</div>
+</div>
+<div id="technology" class="section level1">
+<h1>Technology</h1>
+<p>This course will revolve around hands-on computing exercises that demonstrate the topics of interest. Therefore, students are strongly recommended to bring their own laptop to class, although students are certainly free to work with one another. <strong>For students without access to a personal laptop</strong>: Please let us know in time, and we will try to find a solution.</p>
+<p>All of the software we will be using is free and platform independent, meaning students may use macOS, Linux, or Windows operating systems. In addition to a web browser, we will be using the free <a href="https://www.r-project.org/"><strong>R</strong></a> software and the desktop version of the <a href="https://www.rstudio.com/products/rstudio-desktop/"><strong>R Studio</strong></a> integrated development environment (IDE). We will also be using various packages not contained in the base installation of <strong>R</strong>, but we will wait and install them at the necessary time. The instructor will be available during the first week of class to help students troubleshoot any software installation problems.</p>
+<p>Students will also be required to have a user account on <a href="https://github.com/"><strong>GitHub</strong></a>, which we will be using for file hosting and communications via “issues”. If you do not already have an account, you can sign up for a free one <a href="https://github.com/join?source=header-home">here</a>. The instructor will provide training on how to use the intended features in <strong>GitHub</strong>.</p>
+</div>
+<div id="teaching-methodology" class="section level1">
+<h1>Teaching methodology</h1>
+<p>This course will introduce new material primarily through prepared slides and hands-on demonstrations. Students will be expected to work both individually and collaboratively (to the extent possible given the current conditions); course content and evaluation will emphasize the communication of ideas and the ability to think critically more so than a specific pathway or method. Other areas of this website provide an overview of the topics to be covered, including links to weekly reading assignments, lecture materials, computer labs, and homework assignments.</p>
+<p><br></p>
+</div>
+<div id="communication" class="section level1">
+<h1>Communication</h1>
+<p>This course will involve a <em>lot</em> of communication between and among students and the instructor. Short questions should be addressed to us via email; we will try my best to respond to your message within 24 hours. Under more normal circumstances, detailed questions would be addressed to us in person–either after class or during a scheduled meeting. In this case, however, we will schedule one-on-one or group video calls as needed.</p>
+<p>In addition to email and video, we will use the “Issues” feature in <strong>GitHub</strong> to ask questions and assist others. Specifically, questions and answers can be posted to the issues in the course repository.</p>
+<p><br></p>
+</div>
+<div id="evaluation" class="section level1">
+<h1>Evaluation</h1>
+<p>Students will be evaluated on their knowledge of course content and their ability to communicate their understanding of the material via individual homework assignments (??%), a final project (??%), peer reviews (??%), and class participation (??%). There will be ? homework assignments, each of which will count toward ?% of the final grade. Please note, <strong>all assignments must be turned in to achieve a passing grade</strong>.</p>
+<div id="homework" class="section level3">
+<h3>Homework (?%)</h3>
+<p>Homework will be assigned each ? and is due by 11:59 PM PST on the following ?. It will consist of some short answers and <strong>R</strong> code based on topics covered in lab. There will be ? assignments worth ?% each. Your learning in the class will be greatly enhanced by doing the homework which consist of applying the material you learn in each lecture to a data set.</p>
+</div>
+<div id="individual-project" class="section level3">
+<h3>Individual project (?%)</h3>
+<p>Each student will have to write a complete, publishable (&lt;? page) paper that may, or may not, serve as a component of their thesis/dissertation. Given that some students might not have their own data, students may also use data from the instructors, public datasets or datasets included in <strong>R</strong> libraries.</p>
+</div>
+<div id="peer-reviews" class="section level3">
+<h3>Peer reviews (?%)</h3>
+<p>Each student will have to provide 2 anonymous peer-reviews of their colleagues’ papers (?% each).</p>
+</div>
+<div id="participation" class="section level3">
+<h3>Participation (?%)</h3>
+<p>This is a graduate-level course and we expect a certain amount of engagement from each student, which includes attending and participating lectures and computer labs.</p>
+<p>Students should discuss any potential schedule conflicts with the instructor during the first week of class.</p>
+<p><br></p>
+</div>
+</div>
+<div id="academic-integrity" class="section level1">
+<h1>Academic integrity</h1>
+<p>Faculty and students at the University of Bern are expected to maintain the highest standards of academic conduct, professional honesty, and personal integrity. Plagiarism, cheating, and other academic misconduct are serious violations of the <a href="https://swiss-academies.ch/en/themen/wissenschaftskultur/wissenschaftliche-integritat-1/">Scientific Code of Conduct</a>. Students who have been guilty of a violation will receive zero points for the assignment in question.</p>
+<p><br></p>
+</div>
+<div id="mental-health" class="section level1">
+<h1>Mental health</h1>
+<p>We are in the midst of an historic pandemic that is creating a variety of challenges for everyone. If you should feel like you need some help, please consider the following resources available to students.</p>
+<p><strong>If you are experiencing a life-threatening emergency, please dial 112</strong>.</p>
+<p><a href="https://www.unibe.ch/studies/advisory_services/counselling_centre_universities_of_bern/index_eng.html"><strong>Counseling Center</strong></a><br />
+Phone: 031 / 635 24 35</p>
+<p><br></p>
+</div>
+<div id="endnotes" class="section level1">
+<h1>Endnotes</h1>
+<p>[1] If the instructor should be the one to say or do something that makes a student uncomfortable, the student should feel free to contact the Director of the Prehistoric Archaeology of Bern University.</p>
+<p><br></p>
+<center>
+<em>This site was last updated at 19:26 on 18 Jun 2021</em>
+</center>
+</div>
 
 
 
+</div>
+</div>
 
 </div>
 
@@ -338,6 +557,32 @@ $(document).ready(function () {
 
 <!-- code folding -->
 
+<script>
+$(document).ready(function ()  {
+
+    // move toc-ignore selectors from section div to header
+    $('div.section.toc-ignore')
+        .removeClass('toc-ignore')
+        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
+
+    // establish options
+    var options = {
+      selectors: "h1,h2,h3",
+      theme: "bootstrap3",
+      context: '.toc-content',
+      hashGenerator: function (text) {
+        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_');
+      },
+      ignoreSelector: ".toc-ignore",
+      scrollTo: 0
+    };
+    options.showAndHide = true;
+    options.smoothScroll = true;
+
+    // tocify
+    var toc = $("#TOC").tocify(options).data("toc-tocify");
+});
+</script>
 
 <!-- dynamically load mathjax for compatibility with self-contained -->
 <script>
