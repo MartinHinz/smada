@@ -1,7 +1,14 @@
+name: "my-website"
+navbar:
+  title: "My Website"
+  left:
+    - text: "Home"
+      href: index.html
+
 output_dir: "docs"
 output:
   html_document:
     theme: cosmo
     highlight: textmate
-    include:
-      in_header: header.html
+#    include:
+#      in_header: header.html
