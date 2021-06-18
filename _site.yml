@@ -1,9 +1,18 @@
-name: "my-website"
+name: "smada"
 navbar:
-  title: "My Website"
+  title: "Statistical methods for archaeological data analysis"
   left:
-    - text: "Home"
+    - text: ""
+      icon: fa-home fa-lg
       href: index.html
+    - text: "Schedule"
+      href: asyllabus.html
+    - text: "Lectures"
+      href: lectures.html
+    - text: "Computer Labs"
+      href: comp_labs.html
+    - text: "Homework"
+      href: homework.html
 
 output_dir: "docs"
 output:
